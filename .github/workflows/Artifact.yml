@@ -14,7 +14,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: homework
-          path: ./upload/math-homework.txt
+          path: math-homework.txt
 
   job_2:
     name: Multiply by 9
@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: homework
-          path: ./download/math-homework.txt
+          path: math-homework.txt
 
   job_3:
     name: Display results
